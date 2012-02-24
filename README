@@ -1,0 +1,6 @@
+Redmine JS Base Path Plugin
+===========================
+
+About
+-----
+This simple plugin provides a javascript variable - redmine_js_base_path - to aid in constructing url's in external javascript files where there is no access to the rails path helpers.  It consists of a single view partial that is rendered by the view_layouts_bas_html_head hook.
