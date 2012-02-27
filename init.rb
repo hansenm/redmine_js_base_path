@@ -1,6 +1,6 @@
 require 'redmine_js_base_path/redmine_js_base_path'
 
-Redmine::Plugin.register :redmine_issue_checklist do
+Redmine::Plugin.register :redmine_js_base_path do
   name 'Redmine JS Base Path plugin'
   author 'Matt Hansen'
   description 'This plugin sets a JS variable - redmine_js_base_path - to assist with creation of urls in javascript'
